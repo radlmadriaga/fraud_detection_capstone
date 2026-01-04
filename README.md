@@ -58,7 +58,7 @@ fraud-detection-capstone/
 │
 ├── models/                          # (Created after running)
 │   ├── fraud_detection_model.pkl    # Best trained model
-│   └── scaler.pkl                   # Feature scaler
+│   └── scaler (1).pkl                   # Feature scaler
 │
 └── reports/                         # (For your presentations)
     ├── technical_presentation.pptx  # For data scientists
