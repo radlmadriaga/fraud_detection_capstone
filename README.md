@@ -123,6 +123,7 @@ Logistic Regression    0.7880   0.635373 0.798319 0.707586 0.890402
 ✓ Hyperparameter Tuning (XGBoost)...
 
 ======================================================================
+
 FINAL MODEL PERFORMANCE: Decision Tree
 ======================================================================
 Accuracy       : 1.0000 ✓
@@ -237,20 +238,6 @@ Mitigation Strategies:
 **Issue:** Model performance lower than expected  
 **Solution:** This is normal with synthetic data. Real-world data may show different patterns.
 
----
-
-## Learning Resources Referenced
-
-This project implements concepts from:
-- **Capstone Guide:** `capstone_guide.ipynb` (Step-by-step instructions)
-- **Best Practices:**
-  - Class imbalance handling (SMOTE, class_weight)
-  - Stratified train-test split
-  - Feature engineering (domain knowledge + algorithmic)
-  - Model comparison (not single algorithm)
-  - Cross-validation for robustness
-  - Bias auditing (fairness analysis)
-  - Proper metrics selection (F1, AUC-ROC > Accuracy for imbalanced)
 
 ---
 
@@ -333,16 +320,6 @@ This capstone project demonstrates the complete ML lifecycle in practice:
 4. **Business Impact:** Quantified ROI ($4M+ net benefit)
 5. **Production Ready:** Saved artifacts, reproducible code, documentation
 6. **Ethical AI:** Fairness analysis, limitation documentation
-
-The goal was not just to build a model, but to demonstrate that you can:
-- Translate business needs into ML problems
-- Handle real-world data challenges (imbalance, encoding, scaling)
-- Select and tune appropriate algorithms
-- Evaluate rigorously (correct metrics, cross-validation)
-- Consider ethics and fairness
-- Communicate to both technical and non-technical audiences
-
-**Good luck with your presentation! 🚀**
 
 ---
 
