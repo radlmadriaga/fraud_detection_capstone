@@ -6,7 +6,7 @@ This is a complete **Machine Learning Capstone Project** for **Fraud Detection**
 
 **Dataset:** 50,000 financial transactions  
 **Task:** Binary Classification (Detect Fraudulent Transactions)  
-**Best Model:** XGBoost (AUC-ROC: 0.88)
+**Best Model:** Decision Tree (AUC-ROC: 1.00)
 
 ---
 
@@ -34,7 +34,7 @@ This will:
 
 **Output:**
 - ✓ Trained model: `fraud_detection_model.pkl`
-- ✓ Scaler: `scaler.pkl`
+- ✓ Scaler: `scaler (1).pkl`
 - ✓ Comprehensive report in console
 
 ### 3. View Complete Documentation
